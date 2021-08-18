@@ -1,9 +1,9 @@
-const loadHome = () => {
+const loadNav = () => {
     
-    const contentDiv = document.getElementById('content');
+    const navDiv = document.getElementById('content');
 
     const headerNav = document.createElement('header');
-    contentDiv.appendChild(headerNav);
+    navDiv.appendChild(headerNav);
 
     const headerTitle = document.createElement('h1');
     headerTitle.textContent = 'Inedible Eats';
@@ -32,4 +32,4 @@ const loadHome = () => {
     mainNav.appendChild(buttonContact)
 }
 
-export { loadHome };
+export { loadNav };
