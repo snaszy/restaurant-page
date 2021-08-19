@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
 body {
     font-family: 'Rubik';
-    margin: 0;
-    padding: 0;
 }
 header {
     background-color: black;
@@ -12,9 +9,13 @@ header {
 }
 h1 {
     font-size: 10vw;
-    margin: 0;
+}
+h2 {
+    font-size: 5vw;
+    
 }
 button {
+    background-color: white;
     border-style: none;
     font-size: 2vw;
     padding: 1vw 2vw;
@@ -24,4 +25,29 @@ button {
 }
 button:hover {
     background-color: yellow;
+}
+#home-content {
+    padding: 0;
+    margin: 0;
+    background: url('./images/background.jpg');
+    background-size: 100vw;
+    background-position: bottom;
+    text-align: center;
+    height: 50vw;
+}
+#menu-paper {
+    background-image: url('./images/paper.jpg');
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    line-height: 40vw;
+}
+#menu-plastic {
+    background-image: url('./images/plastic.jpg');
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    line-height: 40vw;
 }

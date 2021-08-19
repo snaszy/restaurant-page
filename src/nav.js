@@ -13,23 +13,21 @@ const loadNav = () => {
     headerNav.appendChild(mainNav);
 
     const buttonHome = document.createElement('button');
-    buttonHome.setAttribute = ('type', 'button');
     buttonHome.id = 'home-button';
     buttonHome.textContent = 'Home';
     buttonHome.className = 'active';
     mainNav.appendChild(buttonHome);
 
     const buttonMenu = document.createElement('button');
-    buttonMenu.setAttribute = ('type', 'button');
     buttonMenu.id = 'menu-button';
     buttonMenu.textContent = 'Menu';
     mainNav.appendChild(buttonMenu);
 
     const buttonContact = document.createElement('button');
-    buttonContact.setAttribute = ('type', 'button');
     buttonContact.id = 'contact-button';
     buttonContact.textContent = 'Contact';
     mainNav.appendChild(buttonContact)
+
 }
 
 export { loadNav };
