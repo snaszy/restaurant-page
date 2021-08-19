@@ -22,7 +22,7 @@ const addButtonEvents = () =>{
     });
     const contactButton = document.getElementById('contact-button');
     contactButton.addEventListener('click', () => {
-        clearDom();
+        clearDOM();
         loadNav();
         loadContact();
         addButtonEvents();
@@ -34,10 +34,8 @@ const clearDOM = () => {
     navDiv.innerHTML = '';
 };
 
-const initiatePage = () => {
+const initiatePage = (() => {
     loadNav();
-    loadMenu();
+    loadHome();
     addButtonEvents();
-};
-
-initiatePage()
+})();
