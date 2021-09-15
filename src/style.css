@@ -14,20 +14,20 @@ h1, h2, p, header {
     text-align: center;
 }
 h1 {
-    font-size: 10vw;
+    font-size: 5em;
 }
 h2 {
     padding-top: 2vw;
-    font-size: 5vw;
+    font-size: 2em;
 }
 button {
     background-color: white;
     border-style: none;
-    font-size: 2vw;
-    padding: 1vw 2vw;
+    font-size: 1.5em;
+    padding: .25em .5em;
     margin: 0vw 2vw;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 button:hover {
     background-color: yellow;
@@ -39,18 +39,39 @@ button:hover {
     text-align: center;
 }
 #home-content {
-    padding: 0;
-    margin: 0;
+    margin: 20px;
+    padding: 20px;
     background: url('./images/background.jpg');
     background-size: 100vw;
     background-position: bottom;
     height: 50vw;
 }
-#menu-paper {
-    background-image: url('./images/paper.jpg');
-    line-height: 40vw;
+.menu-container {
+    margin: 20px;
+    background-size: auto;
+    background-position: center;
 }
-#menu-plastic {
+#paper {
+    background-image: url('./images/paper.jpg');
+    
+}
+#plastic {
     background-image: url('./images/plastic.jpg');
-    line-height: 40vw;
+}
+#map {
+    margin: 20px;
+    height: 50vh;
+    width: auto;
+    background-image: url('./images/gmap.jpeg');
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.menu-item {
+    margin: 20%;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7)
+
 }

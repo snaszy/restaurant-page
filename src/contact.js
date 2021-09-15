@@ -1,3 +1,5 @@
+import { map } from './images/gmap.jpeg'
+
 const loadContact = () => {
     const navDiv = document.getElementById('content');
 
@@ -16,6 +18,12 @@ const loadContact = () => {
     const contactEmail = document.createElement('p');
     contactEmail.textContent = 'info@inedibleeats.com'
     contactDiv.appendChild(contactEmail);
+
+    const location = document.createElement('div');
+    location.id = 'map';
+    location.src = map;
+    contactDiv.appendChild(location)
+
 };
 
 export { loadContact };
